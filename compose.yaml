@@ -29,12 +29,13 @@ services:
       - PGADMIN_DEFAULT_EMAIL=admin@pgadmin.com
       - PGADMIN_DEFAULT_PASSWORD=admin
     volumes:
-      - ./pgadmin:/var/lib/pgadmin
+      - pgadmin:/var/lib/pgadmin
     networks:
       - spring-postgres
 
 volumes:
   db-data:
+  pgadmin:
 secrets:
   db-password:
     file: db/password.txt

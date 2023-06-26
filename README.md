@@ -1,4 +1,4 @@
-## Compose sample application
+## Spring Boot - Postgres - PGAddmin
 
 ### Use with Docker Development Environments
 
