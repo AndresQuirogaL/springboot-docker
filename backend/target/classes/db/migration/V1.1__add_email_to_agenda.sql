@@ -1,0 +1,1 @@
+ALTER TABLE agenda ADD COLUMN email varchar(100) NOT NULL;
