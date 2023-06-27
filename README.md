@@ -18,7 +18,7 @@ HOST: db
 PORT: 5432
 DATABASE: example
 USER: postgres
-PASSOWRD_ password
+PASSOWRD: password
 ~~~
 
 Las migraciones creadas en backend/src/main/resources/db/migration/ se ejecutarán al levantar los servicios.
