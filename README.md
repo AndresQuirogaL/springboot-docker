@@ -1,5 +1,28 @@
 ## Spring Boot - Postgres - PGAddmin
 
+~~~
+docker compose up -d
+~~~
+
+Autenticarse en PG admin (localhost:8081) para verificar esquema de base de datos:
+
+~~~
+- PGADMIN_DEFAULT_EMAIL=admin@pgadmin.com
+- PGADMIN_DEFAULT_PASSWORD=admin
+~~~
+
+Create new server with the database credentials:
+
+~~~
+HOST: db
+PORT: 5432
+DATABASE: example
+USER: postgres
+PASSOWRD_ password
+~~~
+
+Las migraciones creadas en backend/src/main/resources/db/migration/ se ejecutarán al levantar los servicios.
+
 ### Use with Docker Development Environments
 
 You can open this sample in the Dev Environments feature of Docker Desktop version 4.12 or later.

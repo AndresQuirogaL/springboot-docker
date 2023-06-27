@@ -23,5 +23,78 @@
 hs_err_pid*
 replay_pid*
 
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+*.iws
+
+# Logs
+logs/
+*.log
+
+# Compiled files
+target/
+build/
+classes/
+*.class
+
+# Maven
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Gradle
+.gradle/
+build/
+
+# Eclipse
+.settings/
+*.launch
+*.classpath
+*.project
+
+# Intellij
+*.ipr
+*.iws
+*.iml
+out/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Spring Boot DevTools
+.restart
+
+# Hibernate
+*.java~
+*.log
+*.lst
+*.tmp
+*.bak
+*.swp
+
+# Test reports
+/test-output/
+
+# Spring Loaded
+.springBeans
+
+# IntelliJ IDEA
+.idea/
+
+# JHipster
+.idea/
+.springBeans
+
+# Heroku
+target/
+dist/
+logs/
+
+# Other
+bin/
+*.bak
+*.swp
+
 .DS_Store
-pgadmin
